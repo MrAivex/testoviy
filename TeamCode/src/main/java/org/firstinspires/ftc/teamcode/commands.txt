@@ -1,0 +1,9 @@
+git reset --soft HEAD # Убирает изменения из индекса, но остается локально
+git reset --mixed HEAD #
+git reset --hard HEAD   # отменяет изменения и индексе и локально
+
+
+
+git add .
+git commit -m ""
+git push
