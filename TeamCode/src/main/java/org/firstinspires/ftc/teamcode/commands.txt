@@ -4,6 +4,8 @@ git reset --hard HEAD   # отменяет изменения и индексе 
 
 
 
+git checkout -b #название ветки#
+
 git add .
-git commit -m ""
+git commit -m "название коммита"
 git push
